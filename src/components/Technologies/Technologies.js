@@ -10,6 +10,28 @@ const Technologies = () =>  (
     <SectionText>
       Iihsn lmiomd bnoma in in iaihqin lsiojdio oinqon. Poosl qina
     </SectionText>
+    <List>
+      <ListItem>
+        <DiReact size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node and MongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
   </Section>
 );
 
