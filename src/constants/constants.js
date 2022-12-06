@@ -1,19 +1,35 @@
 export const projects = [
   {
-    title: 'Title',
-    description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum ",
+    title: 'Kickstarter',
+    description: "",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
+      tags: ['PostgreSQL', 'Flask', 'React'],
+    source: 'https://github.com/boromeot/kickstarter-clone',
+    visit: 'https://kickstarter-app.onrender.com/',
+    id: 1,
+  },
+  {
+    title: 'Carebnb',
+    description: "",
+      image: '/images/2.png',
+      tags: ['PostgreSQl', 'Express', 'React', 'Node'],
+    source: 'https://github.com/boromeot/air-bnb-clone',
+    visit: 'https://care-bnb-3uo1.onrender.com/s/home',
+    id: 2,
+  },
+  {
+    title: 'Fitness Tracker',
+    description: "",
+      image: '/images/3.png',
+      tags: ['PostgreSQL', 'Flask', 'React'],
+    source: 'https://github.com/boromeot/kickstarter-clone',
+    visit: 'https://sets-and-weights.onrender.com/',
+    id: 3,
   }
 ];
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Attended University of Hawaii', },
+  { year: 2021, text: 'Graduated from App Academy', },
 ];
