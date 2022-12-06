@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <div style={{padding: "20px"}}/>
     <SectionTitle>Technologies</SectionTitle> 
     <SectionText>
-      Iihsn lmiomd bnoma in in iaihqin lsiojdio oinqon. Poosl qina
+      Tools and tech I have used.
     </SectionText>
     <List>
       <ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and MongoDB
+            Node, Express, MongoDB, PostgreSQL and Flask
           </ListParagraph>
         </ListContainer>
       </ListItem>
