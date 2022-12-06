@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
-      <SectionText>Lorem ipsum doloremedm ono naosnd oqm apl.</SectionText>
+      <SectionText></SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, i) => (
@@ -108,7 +108,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
