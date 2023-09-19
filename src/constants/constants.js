@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Hand Speak',
+    description: "",
+      image: '/images/1.png',
+      tags: ['React', 'Machine Learning', 'Mediapipe'],
+    source: 'https://github.com/boromeot/learn-sign-language/tree/main',
+    visit: 'https://learn-sign-language.onrender.com',
+    id: 0,
+  },
+  {
     title: 'Kickstarter',
     description: "",
       image: '/images/1.png',
