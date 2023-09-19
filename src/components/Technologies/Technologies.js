@@ -32,6 +32,16 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Machine Learning</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            TensorFlow, Mediapipe, Linear Regression
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
     </List>
   </Section>
 );
